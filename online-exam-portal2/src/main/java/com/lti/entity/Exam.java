@@ -18,7 +18,7 @@ public class Exam {
 	private int exam_Id;
 	
 	private String exam_Name;
-	private int level;
+	private int elevel;
 	private LocalDate exam_Date;
 	
 	@ManyToOne
@@ -51,11 +51,11 @@ public class Exam {
 	}
 
 	public int getLevel() {
-		return level;
+		return elevel;
 	}
 
 	public void setLevel(int level) {
-		this.level = level;
+		this.elevel = level;
 	}
 
 	public LocalDate getExam_Date() {
